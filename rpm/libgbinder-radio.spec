@@ -31,7 +31,7 @@ This package contains the development library for %{name}.
 %setup -q
 
 %build
-make LIBDIR=%{_libdir} KEEP_SYMBOLS=1 release pkgconfig
+make LIBDIR=%{_libdir} KEEP_SYMBOLS=1 debug pkgconfig
 
 %install
 rm -rf %{buildroot}

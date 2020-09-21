@@ -58,7 +58,7 @@ SRC_DIR = src
 INCLUDE_DIR = include
 BUILD_DIR = build
 DEBUG_BUILD_DIR = $(BUILD_DIR)/debug
-RELEASE_BUILD_DIR = $(BUILD_DIR)/release
+RELEASE_BUILD_DIR = $(BUILD_DIR)/debug
 COVERAGE_BUILD_DIR = $(BUILD_DIR)/coverage
 
 #
